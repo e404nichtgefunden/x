@@ -136,7 +136,7 @@ def restart_bot(message):
     if message.from_user.id in ADMINS:
         bot.send_message(message.chat.id, "♻️ 𝗕𝗢𝗧 𝗥𝗘𝗦𝗧𝗔𝗥𝗧...")
         time.sleep(2)
-        subprocess.run("nohup python3 stx.py", shell=True)
+        subprocess.run("nohup python3 vvip.py", shell=True)
         bot.send_message(message.chat.id, "✅ DDOS READY...")
     else:
         bot.reply_to(message, "🚫 ERROR !")
