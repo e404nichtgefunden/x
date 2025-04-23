@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing Python scripts
-SCRIPT_DIR="/config/a"
+SCRIPT_DIR="/config/config/a"
 
 # Function to run a script in the background
 run_script() {
