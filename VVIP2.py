@@ -3,7 +3,7 @@ import subprocess
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = '8167886725:AAGCIY2tLSn5Fx6V-hDVn3Ft_xMRhhKkOYk'
+BOT_TOKEN = '8147564679:AAGUSxaroKaK8nJ8YnPRsVbC4gXmb2yIy_w'
 ALLOWED_USER_ID = 7382759396
 
 # Store user's current working directory
