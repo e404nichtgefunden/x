@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 BOT_TOKEN = '8147564679:AAGUSxaroKaK8nJ8YnPRsVbC4gXmb2yIy_w'
-ALLOWED_USER_ID = 7382759396
+ALLOWED_USER_ID = 7316824198
 
 # Store user's current working directory
 current_dir = os.path.expanduser("~")  # Default: home directory
